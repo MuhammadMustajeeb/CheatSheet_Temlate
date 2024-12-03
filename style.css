@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 60px;
+    width: 100vw;
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.logo img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.content{
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+}
+
+.container{
+    height: 30px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 37px;
+    padding: 1rem 0;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white!important;
+    border-radius: 12px !important;
+    padding: 3px 8px !important;
+}
